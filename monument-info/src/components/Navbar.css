@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #282829;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  
+  
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 0px;
+  border-color: aqua;
+}
+
+.navbar-links {  
+  list-style:none;
+  display: flex;
+  gap: 20px;
+  
+}
+
+.navbar-links li a {
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.3s;
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+.navbar-links li a:hover {
+  color: #0077cc;
+}
+
+.ownerinfo{
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Edu+SA+Hand:wght@400..700&family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+
+}
+
+
+.monument-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #444;
+  width: fit-content;    
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Edu SA Hand', cursive;
+}
+
+.navbar-title {
+  font-family: 'Edu SA Hand', cursive;
+  font-size: 1.8rem;
+}
+
+
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #c0c0c0;
+}
+
+.main-content {
+  flex: 1;
+}
+
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 0.9rem;
+  margin-top: 0;
+  z-index: 100;
+}
+
+.social-icons {
+  margin-top: 8px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #097aa7;
+}
+

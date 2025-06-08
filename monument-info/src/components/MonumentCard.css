@@ -1,0 +1,49 @@
+.monument-card {
+    border: 3px solid #ccc;
+    border-radius: 12px;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+
+
+  }
+  .monument-card:hover {
+    transform: scale(1.05);
+  }
+
+    
+    
+
+   
+  /*.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+  }*/
+  .monument-card img {
+    width: 100%;
+    aspect-ratio: 3/ 2;
+    
+    
+    border-radius: 8px;
+    display: block;
+    
+  }
+  .monument-card h3 {
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  
+  
