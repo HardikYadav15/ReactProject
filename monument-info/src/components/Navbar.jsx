@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-title">  Monument Info</div>
-      <div className="ownerinfo">Made by Hardik Yadav</div>
+      <div className="ownerinfo"></div>
 
       <ul className="navbar-links">
         <li>
